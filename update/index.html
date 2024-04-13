@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines Hacker</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <style>
+    #avisodep {
+      width: 270px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    #botao-depoimentos {
+    display: block;
+    margin: auto;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d2e37;
+    background-color: #15e55d;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* Estilizando o botão da dropbar */
+.dropbtn {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+
+/* Estilizando o conteúdo da dropbar (as opções) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px; /* Defina a largura conforme necessário */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 50%; /* Move a caixa para a metade do contêiner pai */
+  transform: translateX(-50%); /* Move a caixa de volta em 50% da sua própria largura */
+}
+
+/* Estilizando os links dentro da dropbar */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mudando a cor do link quando o mouse passa sobre ele */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Mostrando o conteúdo da dropbar quando o mouse passa sobre o botão */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilizando a dropbar quando ela está expandida */
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+
+  </style>
+
+</head>
+<body>
+
+
+  <!-- <h2 style="text-align: center; margin-top: 30px;">TUTORIAL <b style="color: orange">COMPLETO</b></h2> -->
+
+
+  <img style="display: block; margin-left: auto; margin-right: auto; width: 350px; margin-top: 20px;" src="images/headline.jpg" alt="">
+  <div  style="margin-top: 20px; margin-bottom: 50px; display: flex; justify-content: center;" class="container"> 
+    <video style="border-radius: 30px; box-shadow: 0 10px 80px black;" width="300" height="300" controls poster="images/thumb.jpg">
+      <source src="tutorial/tutorial.mp4" type="video/mp4">
+    </video>      
+  </div>
+  <a href="https://chat.whatsapp.com/CmuLxRQr27J9qurAudU6K5" target=”_blank”><button id="botao-depoimentos" style="margin-bottom: 100px;">DEPOIMENTOS DO DIA 🤑</button></a>
+
+
+    <!-- Play Movie Container starts -->
+    <div class="play-container container">
+      <img src="images/logo.png" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
+        <h3 style="text-align: center;">💥 Tentativas: até 2</h3>
+        <div  class="dropdown">
+          <button id="dropbtn" class="dropbtn">Selecionar ESTRATÉGIA ></button>
+          <div class="dropdown-content">
+            <a href="#" onclick="changeOption('ESTRATÉGIA: 3 Minas (4 Estrelas)'); changeVar(4);">3 Minas (4 Estrelas)</a>
+            <a href="#" onclick="changeOption('ESTRATÉGIA: 2 Minas (5 estrelas)'); changeVar(5);" >2 Minas (5 estrelas)</a>
+            <a href="#" onclick="changeOption('ESTRATÉGIA: 1 Mina (7 estrelas)'); changeVar(7);">1 Mina (7 estrelas)</a>
+            <a href="#" onclick="changeOption('ESTRATÉGIA: 1 Mina (Revelar bombas)'); changeVar(22); changeImg(0);">1 Mina (Revelar bombas)</a>
+          </div>
+        </div>
+        <br>
+        <img id="avisodep" src="images/aviso.jpg">
+        <div id="quadrados">
+            <div id="fileira-1"></div>
+            <div id="fileira-2"></div>
+            <div id="fileira-3"></div>
+            <div id="fileira-4"></div>
+            <div id="fileira-5"></div>
+        
+          </div><br>
+        <div class="container">
+          <button id="botao-sinal" onclick="gerarSinal()">HACKEAR SINAL</button>
+        
+        <br>
+         </div>
+         
+        
+        <div class="container">
+        <a href="https://app.betserver.site/EspiaodaNASA/user/fast-login" target=”_blank”><button id="botao-iframe">Lucrar em +16 jogos...</button></a>
+        <br><br>
+         </div>
+        
+        
+        
+         <script src="js/app.js"></script>
+         <iframe id="meu-iframe" src="https://sportlocker.bet/" allow="clipboard-write *"></iframe>
+ 
+        
+        <br><br>
+         </div>
+        
+        
+    <!-- Play Movie Container ends -->
+  
+
+
+     <!-- GERAR SINAL! -->
+
+    <!-- Copyright starts -->
+    <div class="copyright">
+        <p>&#169; Todos os Direitos Reservados!</p>
+    </div>
+    <!-- Copyright ends -->
+
+    <script src="../../js/swiper-bundle.min.js"></script>
+    <script src="../../js/main.js"></script>
+    
+</body>
+</html>
